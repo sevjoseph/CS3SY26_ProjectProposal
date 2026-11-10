@@ -6,7 +6,7 @@
 ### Project Title or Name of the Application	:
 ### Section			   	      : 9 - Rubidium
 ### Group Members			    : FAJARDO, Jonathan; QUIATCHON, Mirawen Carissa; SEVILLA, Joseph Gene
-### Date (Proposal Date)  : Nov 5, 2026
+### Date (Proposal Date)  : Nov 13, 2026
 
 ### Project Description:
 
