@@ -31,9 +31,8 @@ The User class has a composition relationship with Transaction, Budget, SavingsG
 #### **Target Users**
 The target users of the application are students, young adults, and working individuals, especially those who want to improve their financial management skills. It is designed for students who need to budget their allowances for necessities, as well as those who want to monitor their income and expenses. The app is also suitable for those who struggle with impulsive spending.
 
-**Class Diagram**
-
-
+#### **Class Diagram**
+<img width="1920" height="1080" alt="Untitled Design (59)" src="https://github.com/user-attachments/assets/975cc6a6-d0c4-4120-bcd9-d9bf1f47b966" />
 
 ### Goals:
 The long-term outcomes of our project include better financial planning through classification of possible purchases as either wants or needs, efficient tracking of savings made, and identification of the attainability of financial goals set.
