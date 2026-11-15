@@ -26,9 +26,9 @@ Buy or Bye features user management; it handles basic user information. This inc
 - The PurchaseEvaluator class checks planned purchases using the current balance, remaining budget, and savings goals. Its attributes are evaluationDate, and its methods are evaluatePurchase(), checkAffordability(), checkBudgetLimit(), checkSavingsImpact(), and giveRecommendation().
 - The FinancialReport class summarizes the user’s financial information. It contains reportID, startDate and endDate for attributes and calculateIncome(), calculateExpenses(), calculateBalance(), and generateReport() for methods.
 
-The User class has a composition relationship with Transaction, Budget, SavingsGoal, and Purchase Item because these belong  to a specific user. The Income and Expense classes both inherit from Transaction. The Category class has an aggregation relationship with Transaction since it groups transactions into categories without controlling them. PurchaseEvaluator and FinancialReport have dependency relationships with User, Income, Expense PurchaseItem, Budget, and SavingsGoal. The former temporarily uses their information to evaluate planned purchases, while the latter uses their information to give a summary.
+The User class has a composition relationship with Transaction, Budget, SavingsGoal, and Purchase Item because these belong to a specific user and cannot exist without that user. The Income and Expense classes both inherit from Transaction, sharing its attributes and methods. The Category class has association relationships with Transaction, PurchaseItem, and Budget to organize them into different categories. The PurchaseEvaluator class has dependency relationships with User, PurchaseItem, Budget, and SavingsGoal since it checks planned purchases based on the user’s financial information (balance, budget, and savings goals). FinancialReport has dependency relationships with User, Income, Expense PurchaseItem, Budget, and SavingsGoal since it uses these to gather financial information and generate a report.
 
-**Target Users**
+#### **Target Users**
 The target users of the application are students, young adults, and working individuals, especially those who want to improve their financial management skills. It is designed for students who need to budget their allowances for necessities, as well as those who want to monitor their income and expenses. The app is also suitable for those who struggle with impulsive spending.
 
 **Class Diagram**
@@ -36,7 +36,6 @@ The target users of the application are students, young adults, and working indi
 
 
 ### Goals:
-
 The long-term outcomes of our project include better financial planning through classification of possible purchases as either wants or needs, efficient tracking of savings made, and identification of the attainability of financial goals set.
 
 - Objective 1: Track expenses through user input 
