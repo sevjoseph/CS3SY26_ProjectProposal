@@ -39,5 +39,5 @@ The target users of the application are students, young adults, and working indi
 The long-term outcomes of our project include better financial planning through classification of possible purchases as either wants or needs, efficient tracking of savings made, and identification of the attainability of financial goals set.
 
 - Objective 1: Track transactions through user input by allowing users to record, categorize, edit, and delete these transactions.
-- Objective 2: Assist users' decision-making by identifying purchases as needs or wants and evaluating them based on their affordability and remaining budget.
-- Objective 3: Evaluate how users' purchases influence the attainability of their set financial goals by assessing their impact on savings progress and providing recommendations.
+- Objective 2: Assist users' decision-making by identifying purchases as needs or wants and evaluating them based on their affordability.
+- Objective 3: Evaluate how users' purchases influence the attainability of their set financial goals by evaluating their impact on progress and providing recommendations.
