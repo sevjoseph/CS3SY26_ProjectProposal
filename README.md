@@ -14,6 +14,7 @@ Buy or Bye is a financial planning application that helps users track their inco
 Buy or Bye features user management; it handles basic user information. This includes user registration and login, profile management, and access to financial information/dashboard. It also features income and expense tracking, which allows users to record and organize categorize their income and expenses. The app also includes budget management, allowing users to set spending limits for different categories and monitor their remaining budget. In addition to this, the app also has a smart purchase evaluator, which lets users enter planned purchases. It evaluates them based on the current balance, category, and savings goals, then provides recommendations such as “Reasonable to Buy”, “Wait and Save”, “Not Affordable Right Now.” Lastly, the app features financial reports, displaying summaries of the user’s income, expenses, current balance, budget status, savings progress, and any planned purchases
 
 #### **Expected Output**
+Buy or Bye will feature a dashboard displaying the user’s information, balance, income, expenses, and savings progress, with a navigation menu containing tabs for Dashboard, Transactions, Budgets, Savings Goals, Planned Purchases, and Financial Reports. Each tab will have its own interface for managing financial records, setting goals and budgets, evaluating planned purchases, and viewing summaries.
 
 #### **Class, Attributes, and Methods**
 - The User class manages the user’s account and personal information. Its attributes include userID, name, email, and password, while its methods include registerAccount(), login(), updateProfile(), and viewDashboard().
@@ -32,7 +33,7 @@ The User class has a composition relationship with Transaction, Budget, SavingsG
 The target users of the application are students, young adults, and working individuals, especially those who want to improve their financial management skills. It is designed for students who need to budget their allowances for necessities, as well as those who want to monitor their income and expenses. The app is also suitable for those who struggle with impulsive spending.
 
 #### **Class Diagram**
-<img width="1583" height="1080" alt="Untitled Design (59)" src="https://github.com/user-attachments/assets/c940c631-400d-40ef-a77b-0cda8de9b892" />
+<img width="1601" height="1080" alt="Untitled Design (60)" src="https://github.com/user-attachments/assets/d90d65b8-a58e-4285-96eb-9742d03bf54c" />
 
 ### Goals:
 The long-term outcomes of our project include better financial planning through classification of possible purchases as either wants or needs, efficient tracking of savings made, and identification of the attainability of financial goals set.
